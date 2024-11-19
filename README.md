@@ -62,8 +62,6 @@ MGWAES accepts the PLINK and vcf format.Users can convert PLINK and VCF formats 
   - Post-hoc analysis of significant SNPs obtained by CCA-GWAS. Users can also specify any SNP for analysis.
  
 
-## Contact
-tanlizhi@cau.edu.cn(lizhi)
 
 
 
