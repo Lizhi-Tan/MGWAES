@@ -1,0 +1,8 @@
+library(data.table)
+source("functions.R")
+xxm_name <- paste0("test_allele_matrix.txt")
+xh <- fread(xxm_name,sep = "\t",header = F,drop = 1,nThread = 4)
+xh <- as.matrix(xh)
+hap <- get_haplotype_grm_fix_window(xh,5)
+hap_name <- paste0("test_hap_grm.txt")
+write.table(hap,hap_name,col.names = F,row.names = F,sep = "\t",quote = F)
