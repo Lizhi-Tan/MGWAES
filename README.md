@@ -60,8 +60,6 @@ MGWAES accepts the PLINK and vcf format.Users can convert PLINK and VCF formats 
 - `Analysis on different time periods interactions`
   - This module includes interactions modeled under different time phases to examine the specific alleles of the localized time-specific SNPs.
   - Post-hoc analysis of significant SNPs obtained by CCA-GWAS. Users can also specify any SNP for analysis.
- 
 
-CONTACT
 
 
